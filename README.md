@@ -30,14 +30,14 @@ Finished in 0.001317s, 759.3014 runs/s, 759.3014 assertions/s.
 
 # Running Test Suite
 
-You can run the whole test suite by running the following command:
+To run the whole test suite, run the following command:
 ```bash
 $ bundle exec guard
 ```
 
-# Implementation
+# Challenge Implementation
 
-The core implementation can be verified in `test/challenge_test.rb`. This shows the hypothetical setup and configuration that could be used for a given basket. The rules can be changed easily and new rules can be written.
+The core implementation can be verified in `test/challenge_test.rb`. 
 
-Ideally, in production, this configuration would be built up from a configuration in a file or database. However, for demonstration purposes, I've kept it in the test file.
+This shows the hypothetical setup and configuration that could be used for a given basket. The rules can be changed easily and new rules can be written. Ideally, in production, this configuration would be built up from a configuration in a file or database. However, for demonstration purposes, I've kept it in the test file.
 
